@@ -9,6 +9,15 @@ body {
     position:relative;
     overflow: hidden;
 }
+.rect {
+    width: 500px;
+    height: 80px;
+    background-color:rgb(255,255,255);
+    position: absolute;
+    transform: rotate(-40deg);
+    top: 80px;
+    left: -90px;
+}
 .secondsq {
     background-color:rgb(57,42,49);
     margin: auto;
@@ -17,8 +26,17 @@ body {
     width:700px;
     position: relative;
     overflow: hidden;
-    margin-top: 10px;
+    margin-top: 40px;
     
+}
+.rect2 {
+    width: 500px;
+    height: 80px;
+    background-color:#ef377f;;
+    position: absolute;
+    transform: rotate(-40deg);
+    top: 80px;
+    left: -240px;
 }
 /*div {
     margin:auto;
